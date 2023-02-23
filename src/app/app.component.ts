@@ -28,7 +28,6 @@ export class AppComponent {
   openModal(department: Department) {
     const dialogRef = this.dialog.open(ModalComponent, {
       data: {department},
-      width: '500px',
       panelClass: 'custom-modal-container'
     });
   }

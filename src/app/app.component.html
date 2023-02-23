@@ -1,6 +1,6 @@
 <div class="center">
   <div class="department-grid">
-    <div *ngFor="let department of departments" class="department">
+    <div *ngFor="let department of departments" class="department" (click)="openModal(department)">
       <div class="ribbon" *ngIf="department.ribbonText">
         <div class="ribbon-text">{{ department.ribbonText }}</div>
       </div>
