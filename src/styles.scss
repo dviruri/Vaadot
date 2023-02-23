@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+.mat-dialog-container {
+  z-index: 9999 !important;
+  margin: 20px;
+}
+.custom-dialog {
+  max-height: 100vh;
+  max-width: 100vw;
+  margin: 0;
+}
+
+.cdk-overlay-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
